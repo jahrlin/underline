@@ -32,15 +32,3 @@ $selectionColor : #b4d5fe;
     color: $color;
   }
 }
-
-p {
-  color: hotpink;
-}
-
-a {
-  @include linkUnderlines(#fff, #000);
-
-  &:hover {
-    @include linkUnderlines(#fff, hotpink);
-  }
-}
