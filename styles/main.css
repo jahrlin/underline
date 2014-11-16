@@ -1,4 +1,7 @@
 p {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  text-transform: lowercase;
   color: hotpink; }
 
 a {
