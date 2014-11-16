@@ -40,7 +40,7 @@ p {
   color: hotpink;
 }
 
-a.u {
+a {
   @include linkUnderlines(#fff, #000);
 
   &:hover {

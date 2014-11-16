@@ -4,7 +4,7 @@ p {
   text-transform: lowercase;
   color: hotpink; }
 
-a.u {
+a {
   color: black;
   text-decoration: none;
   text-shadow: 0.03em 0 white, -0.03em 0 white, 0 0.03em white, 0 -0.03em white, 0.06em 0 white, -0.06em 0 white, 0.09em 0 white, -0.09em 0 white, 0.12em 0 white, -0.12em 0 white, 0.15em 0 white, -0.15em 0 white;
@@ -12,17 +12,17 @@ a.u {
   background-size: .05em 1px, .05em 1px, 1px 1px;
   background-repeat: no-repeat, no-repeat, repeat-x;
   background-position: 0% 90%, 100% 90%, 0% 90%; }
-  a.u::selection {
+  a::selection {
     text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
     background: #b4d5fe; }
-  a.u::-moz-selection {
+  a::-moz-selection {
     text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
     background: #b4d5fe; }
-  a.u:before, a.u:after, a.u *, a.u *:before, a.u *:after {
+  a:before, a:after, a *, a *:before, a *:after {
     text-shadow: none; }
-  a.u:visited {
+  a:visited {
     color: black; }
-  a.u:hover {
+  a:hover {
     color: hotpink;
     text-decoration: none;
     text-shadow: 0.03em 0 white, -0.03em 0 white, 0 0.03em white, 0 -0.03em white, 0.06em 0 white, -0.06em 0 white, 0.09em 0 white, -0.09em 0 white, 0.12em 0 white, -0.12em 0 white, 0.15em 0 white, -0.15em 0 white;
@@ -30,13 +30,13 @@ a.u {
     background-size: .05em 1px, .05em 1px, 1px 1px;
     background-repeat: no-repeat, no-repeat, repeat-x;
     background-position: 0% 90%, 100% 90%, 0% 90%; }
-    a.u:hover::selection {
+    a:hover::selection {
       text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
       background: #b4d5fe; }
-    a.u:hover::-moz-selection {
+    a:hover::-moz-selection {
       text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
       background: #b4d5fe; }
-    a.u:hover:before, a.u:hover:after, a.u:hover *, a.u:hover *:before, a.u:hover *:after {
+    a:hover:before, a:hover:after, a:hover *, a:hover *:before, a:hover *:after {
       text-shadow: none; }
-    a.u:hover:visited {
+    a:hover:visited {
       color: hotpink; }
